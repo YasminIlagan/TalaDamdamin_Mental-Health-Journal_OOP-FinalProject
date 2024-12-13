@@ -3,7 +3,6 @@
 Welcome to TalaDamdamin, your personal mental health companion! This Java-based console application empowers users to track their mental well-being, reflect through journal entries, set daily goals, and gain insights with curated mental health advice. Designed with Object-Oriented Programming (OOP) principles, the application features robust user authentication and seamless database integration with MySQL. 🌟
 
 🧠 Why TalaDamdamin?
-
 In a fast-paced world, prioritizing mental health is essential. TalaDamdamin is here to provide a safe, simple, and insightful tool to support your wellness journey. Think of it as a beacon of light guiding you toward self-discovery and balance. 💙
 
 ⚙️ Key Features
@@ -20,7 +19,7 @@ In a fast-paced world, prioritizing mental health is essential. TalaDamdamin is 
 
 🚀 OOP Principles in Action
 
-Encapsulation
+1️⃣ Encapsulation
 
 User Class: Safeguards user-specific data like username and password with private attributes and public getters.
 
@@ -28,17 +27,17 @@ EntryJournal Class: Manages journal data while keeping entries and operations se
 
 DatabaseConnection Class: Centralizes database logic for streamlined management.
 
-Abstraction
+2️⃣ Abstraction
 
 Simplifies database interactions via a dedicated DatabaseConnection class.
 
 High-level methods like addJournalEntry() allow users to interact seamlessly without knowing implementation details.
 
-Inheritance
+3️⃣ Inheritance
 
 Prepare for scalability! Subclasses like TherapistUser or MoodEntry can inherit and extend core classes for additional functionality.
 
-Polymorphism
+4️⃣ Polymorphism
 
 Dynamically adapt methods like addJournalEntry() to user input.
 
@@ -46,13 +45,7 @@ Lay the groundwork for method overloading to support enhanced entry customizatio
 
 🎉 Benefits
 
-Readable code
-
-Reusable components
-
-Maintainable structure
-
-Future-ready scalability
+Readable code, reusable components, maintainable structure, and future-ready scalability!
 
 🌍 Contributing to the SDGs
 
@@ -78,17 +71,17 @@ An IDE like IntelliJ IDEA or Eclipse
 
 Setup Instructions
 
-Clone the Repository
+Clone the Repository:
 
-git clone https: https://github.com/YasminIlagan/TalaDamdamin_Mental-Health-Journal_OOP-FinalProject
+https://github.com/YasminIlagan/TalaDamdamin_Mental-Health-Journal_OOP-FinalProj/tree/main
 
-Set Up the Database
+Set Up the Database:
 
 Execute MentalHealthJournal_Query.sql in MySQL Workbench.
 
 Update database credentials in the DatabaseConnection class (URL, USER, PASSWORD).
 
-Run the Application
+Run the Application:
 
 Registration: Create a new user account.
 
@@ -105,4 +98,3 @@ Explore: Add entries, review past reflections, set goals, and discover advice!
 🫂 Community support integration
 
 🎯 Personalized self-care recommendations
-
